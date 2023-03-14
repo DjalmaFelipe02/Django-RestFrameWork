@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <title>Employee Register</title>
+</head>
+<body>
+    <h1>Welcome to the Form</h1>
+    <hr color="black" size="3px" align="left" width="300px">
+    <p>Para acessar o Forms clique no botão abaixo:</p>
+    <button ><a href="{% url 'employee_insert' %}">Clique</a></button>
+</body>    
